@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: index.js</title>
+    <title>index.js - Documentation</title>
 
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
 </head>
-
 <body>
 
-<div id="main">
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
 
-    <h1 class="page-title">Source: index.js</h1>
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="AlgoliaSearchHelper.html">AlgoliaSearchHelper</a><ul class='methods'><li data-type='method'><a href="AlgoliaSearchHelper.html#addDisjunctiveRefine">addDisjunctiveRefine</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#addExclude">addExclude</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#addNumericRefinement">addNumericRefinement</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#addRefine">addRefine</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#clearRefinements">clearRefinements</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#getCurrentPage">getCurrentPage</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#getIndex">getIndex</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#isDisjunctiveRefined">isDisjunctiveRefined</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#isExcluded">isExcluded</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#isRefined">isRefined</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#nextPage">nextPage</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#previousPage">previousPage</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#removeDisjunctiveRefine">removeDisjunctiveRefine</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#removeExclude">removeExclude</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#removeNumericRefinement">removeNumericRefinement</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#removeRefine">removeRefine</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#search">search</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#setCurrentPage">setCurrentPage</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#setIndex">setIndex</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#setQuery">setQuery</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#setState">setState</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#toggleExclude">toggleExclude</a></li><li data-type='method'><a href="AlgoliaSearchHelper.html#toggleRefine">toggleRefine</a></li></ul></li><li><a href="SearchParameters.html">SearchParameters</a><ul class='methods'><li data-type='method'><a href="SearchParameters.html#addDisjunctiveFacetRefinement">addDisjunctiveFacetRefinement</a></li><li data-type='method'><a href="SearchParameters.html#addExcludeRefinement">addExcludeRefinement</a></li><li data-type='method'><a href="SearchParameters.html#addFacetRefinement">addFacetRefinement</a></li><li data-type='method'><a href="SearchParameters.html#addNumericRefinement">addNumericRefinement</a></li><li data-type='method'><a href="SearchParameters.html#clearRefinements">clearRefinements</a></li><li data-type='method'><a href="SearchParameters.html#getNumericRefinement">getNumericRefinement</a></li><li data-type='method'><a href="SearchParameters.html#getRefinedDisjunctiveFacets">getRefinedDisjunctiveFacets</a></li><li data-type='method'><a href="SearchParameters.html#getUnrefinedDisjunctiveFacets">getUnrefinedDisjunctiveFacets</a></li><li data-type='method'><a href="SearchParameters.html#isDisjunctiveFacetRefined">isDisjunctiveFacetRefined</a></li><li data-type='method'><a href="SearchParameters.html#isExcludeRefined">isExcludeRefined</a></li><li data-type='method'><a href="SearchParameters.html#isFacetRefined">isFacetRefined</a></li><li data-type='method'><a href="SearchParameters.html#removeDisjunctiveFacetRefinement">removeDisjunctiveFacetRefinement</a></li><li data-type='method'><a href="SearchParameters.html#removeExcludeRefinement">removeExcludeRefinement</a></li><li data-type='method'><a href="SearchParameters.html#removeFacetRefinement">removeFacetRefinement</a></li><li data-type='method'><a href="SearchParameters.html#removeNumericRefinement">removeNumericRefinement</a></li><li data-type='method'><a href="SearchParameters.html#setDisjunctiveFacets">setDisjunctiveFacets</a></li><li data-type='method'><a href="SearchParameters.html#setFacets">setFacets</a></li><li data-type='method'><a href="SearchParameters.html#setHitsPerPage">setHitsPerPage</a></li><li data-type='method'><a href="SearchParameters.html#setPage">setPage</a></li><li data-type='method'><a href="SearchParameters.html#setQuery">setQuery</a></li><li data-type='method'><a href="SearchParameters.html#setTypoTolerance">setTypoTolerance</a></li><li data-type='method'><a href="SearchParameters.html#toggleDisjunctiveFacetRefinement">toggleDisjunctiveFacetRefinement</a></li><li data-type='method'><a href="SearchParameters.html#toggleExcludeFacetRefinement">toggleExcludeFacetRefinement</a></li><li data-type='method'><a href="SearchParameters.html#toggleFacetRefinement">toggleFacetRefinement</a></li></ul></li><li><a href="SearchResults.html">SearchResults</a><ul class='methods'><li data-type='method'><a href="SearchResults.html#getFacetByName">getFacetByName</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-algoliasearch-helper.html">algoliasearch-helper</a></li></ul><h3><a href="global.html">Global</a></h3>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">index.js</h1>
+    
 
     
 
@@ -26,9 +38,7 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>/**
- */
-"use strict";
+            <pre class="prettyprint source linenums"><code>"use strict";
 var AlgoliaSearchHelper = require( "./src/algoliasearch.helper" );
 /**
  * The algoliasearch-helper module is a function that instanciate the helper.
@@ -46,7 +56,7 @@ function helper( client, index, opts ) {
  * The version currently used
  * @member module:algoliasearch-helper.version
  */
-helper.version = "2.0.0";
+helper.version = "2.0.2";
 
 module.exports = helper;
 </code></pre>
@@ -58,17 +68,13 @@ module.exports = helper;
 
 </div>
 
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-algoliasearch-helper.html">algoliasearch-helper</a></li></ul><h3>Classes</h3><ul><li><a href="AlgoliaSearchHelper.html">AlgoliaSearchHelper</a></li><li><a href="SearchParameters.html">SearchParameters</a></li><li><a href="SearchResults.html">SearchResults</a></li></ul><h3><a href="global.html">Global</a></h3>
-</nav>
-
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-beta3</a> on Tue Apr 28 2015 16:33:49 GMT+0200 (CEST)
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-beta3</a> on Thu May 07 2015 13:47:37 GMT+0200 (CEST) using the Minami theme.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
 </body>
 </html>
